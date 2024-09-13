@@ -1,1 +1,1 @@
-alert("")
+alert("we good");
