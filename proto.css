@@ -29,11 +29,6 @@ body {
   background: var(--bg-color);
 }
 
-p{
-  background-color: #ddd;
-  color: #000;
-}
-
 .wrapper {
   position: relative;
   width: 66rem;
