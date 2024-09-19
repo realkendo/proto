@@ -76,7 +76,7 @@ p{
 
 .btn-box a{
   margin: 5px 5px;
-  border: 1px solid var(--second-text-color);
+  border: 1px solid black;
   padding: 5px 5px;
 }
 
