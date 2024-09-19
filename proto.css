@@ -63,3 +63,20 @@ body {
   max-width: 500px;
   max-height: 400px;
 }
+
+p{
+  padding: 3px 3px;
+  margin: 2px 2px;
+  max-width: 400px;
+}
+
+.btn-box{
+  margin: 5px 5px;
+}
+
+.btn-box a{
+  margin: 5px 5px;
+  border: 1px solid var(--second-text-color);
+  padding: 5px 5px;
+}
+
