@@ -27,6 +27,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: var(--bg-color);
+  color: var(--text-color);
 }
 
 .wrapper {
@@ -54,6 +55,21 @@ body {
   transform: rotate(180deg);
 }
 
+.book{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+
+.book .book-page{
+  
+}
+
+
+/* custom */
+
 .profile-page {
   overflow: hidden;
 }
@@ -80,3 +96,9 @@ p{
   padding: 5px 5px;
 }
 
+
+.btn-box :hover{
+  background-color: #333;
+  color: #00abf0;
+  border-radius: 30%;
+}
