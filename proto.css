@@ -34,10 +34,13 @@ body {
   position: relative;
   width: 66rem;
   height: 45rem;
+  padding: 2rem;
 }
 
 .cover {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 50%;
   height: 100%;
   background: var(--cover-color);
@@ -64,41 +67,55 @@ body {
 
 
 .book .book-page{
-  
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: var(--pages-color);
+  box-shadow: 0 0 .6rem rgba(0, 0, 0, .1);
+  display: flex;
+  padding: 2rem;
+}
+
+.profile-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-page img{
+  max-width: 180px;
+  border-radius: 100%;
+  border: .25rem solid var(--main-color);
+  margin-bottom: .8rem;
+}
+
+.profile-page h1{
+  font-size: 2.7rem;
+  line-height: 1;
+}
+
+.profile-page h3{
+  font-size: 1.5rem;
+color: var(--main-color);}
+
+.profile-page .social-media a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: transparent;
+  border: var(--border);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  color: var(--main-color);
+}
+
+.profile-page .social-media a :hover{
+  color: #333;
 }
 
 
 /* custom */
 
-.profile-page {
-  overflow: hidden;
-}
-
-#profileImg {
-  margin: 10px 10px;
-  max-width: 500px;
-  max-height: 400px;
-}
-
-p{
-  padding: 3px 3px;
-  margin: 2px 2px;
-  max-width: 400px;
-}
-
-.btn-box{
-  margin: 5px 5px;
-}
-
-.btn-box a{
-  margin: 5px 5px;
-  border: 1px solid black;
-  padding: 5px 5px;
-}
-
-
-.btn-box :hover{
-  background-color: #333;
-  color: #00abf0;
-  border-radius: 30%;
-}
