@@ -110,12 +110,11 @@ color: var(--main-color);}
   border-radius: 50%;
   font-size: 1.3rem;
   color: var(--main-color);
+  margin: 0 .2rem;
 }
+
+/* custom */
 
 .profile-page .social-media a :hover{
   color: #333;
 }
-
-
-/* custom */
-
