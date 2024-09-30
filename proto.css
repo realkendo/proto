@@ -97,7 +97,12 @@ body {
 
 .profile-page h3{
   font-size: 1.5rem;
-color: var(--main-color);}
+  color: var(--main-color);
+}
+
+.profile-page .social-media{
+  margin: .6rem 0 .8rem;
+}
 
 .profile-page .social-media a{
   display: inline-flex;
@@ -111,10 +116,19 @@ color: var(--main-color);}
   font-size: 1.3rem;
   color: var(--main-color);
   margin: 0 .2rem;
+  transition: 1s;
 }
+
+.profile-page .social-media a:hover{
+  background: var(--main-color);
+  color: var(--white-color);
+}
+
 
 /* custom */
 
-.profile-page .social-media a :hover{
-  color: #333;
+
+.my-bio{
+  text-align: justify;
+  font-family: cursive;
 }
