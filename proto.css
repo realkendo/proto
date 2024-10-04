@@ -161,12 +161,15 @@ body {
   color: var(--white-color);
 }
 
-
-
 .book-page.page-right{
   position:absolute ;
   right: 0;
   transform-style: preserve-3d;
+  transform-origin: left;
+}
+
+.book-page.page-right.turn{
+  transform: rotateY(-180deg);
 }
 
 .book-page .page-front,
@@ -227,6 +230,30 @@ body {
   bottom: 1.2rem;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.nextprev-btn {
+  position: absolute;
+  bottom: .9rem;
+  right: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--second-text-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
+}
+
+.nextprev-btn:hover{
+  color: var(--main-color);
+  font-size: 2.2rem;
+}
+
+.nextprev-btn.back{
+  left: 1.5rem;
 }
 
 /* custom */
