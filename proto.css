@@ -261,3 +261,7 @@ body {
   text-align: justify;
   font-family: cursive;
 }
+
+hr{
+  color: red;
+}
