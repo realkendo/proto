@@ -280,3 +280,12 @@ hr{
   text-align: center;
 }
 
+.services-content i{
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+
+.services-content h4{
+  font-size: 1.1rem;
+}
+
