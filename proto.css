@@ -303,3 +303,24 @@ hr{
   height: 2.5rem;
 }
 
+.skills-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.skills-box .skills-content{
+  flex:1 1 20rem;
+}
+
+.skills-content h3{
+  font-size: 1.3rem;
+  line-height: 1;
+  margin-bottom: .6rem;
+}
+
+.skills-content .content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
