@@ -1,12 +1,8 @@
-// Turn the next page when next or prev button is clicked
-const pageButton = document.querySelectorAll(".nextprev-btn");
+// functionality for clicking next & prev button clicks
+const pageTurnBtn = document.querySelectorAll('.nextprev-btn');
 
-pageButton.forEach((el) => {
+pageTurnBtn.forEach((el,index) => {
   el.onclick = () => {
-    const pageTurnId = el.getAttribute("data-page");
-    const pageTurn = document.getElementById(pageTurnId);
-
-    // Toggle the 'turn' class to show or hide the page
-    pageTurn.classList.toggle("turn");
-  };
+    console.log(el + " clicked");
+  }
 });
